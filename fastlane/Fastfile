@@ -24,7 +24,6 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :sample do
-    scan(scheme: "Lab Sample App")
     register_devices( devices: {
        "Nils iPhone" => "aa2bb57afb0218dfc68a617b15684edd7632af8e"
       }
