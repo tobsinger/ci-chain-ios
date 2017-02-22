@@ -17,7 +17,7 @@ default_platform :ios
 
 platform :ios do
   before_all do
-    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+    ENV["SLACK_URL"] = ENV['bamboo_SLACK_URL']
 
 
   end
