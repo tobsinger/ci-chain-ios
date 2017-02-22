@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let image = UIImage(named: "porsche-918-spyder");
+        imageView.image = image;
+        self.view.addSubview(imageView);
         // Do any additional setup after loading the view, typically from a nib.
     }
 
